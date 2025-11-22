@@ -86,47 +86,6 @@ export const projects: Project[] = [
     isWorking: true,
   },
   {
-    title: 'Pasandida Aurat',
-    description:
-      'Innovative dating platform featuring anonymous questions and authentic connections - currently in development',
-    image: '/project/pasandida.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/pasandida.mp4',
-    link: 'https://www.pasandidaurat.com/',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'Prisma', icon: <Prisma key="prisma" /> },
-      { name: 'PostgreSQL', icon: <PostgreSQL key="postgresql" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'Socket.io', icon: <SocketIo key="socketio" /> },
-    ],
-    live: 'https://www.pasandidaurat.com/',
-    details: true,
-    projectDetailsPageSlug: '/projects/pasandida-aurat',
-    isWorking: false, // Currently in development
-  },
-  {
-    title: 'The Quest',
-    description:
-      'Personal challenge tracker for completing 500 DSA problems, earning ₹300,000, and improving fitness within 6 months',
-    image: '/project/quest.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/quest.mp4',
-    link: 'https://quest.ramx.in/',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'Vercel', icon: <Vercel key="vercel" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'MDX', icon: <MDXIcon key="mdx" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
-    ],
-    github: 'https://github.com/ramxcodes/the-quest',
-    live: 'https://quest.ramx.in/',
-    details: true,
-    projectDetailsPageSlug: '/projects/the-quest',
-    isWorking: true,
-  },
-  {
     title: 'FestX',
     description:
       "Comprehensive event management platform for college festivals and hackathons built for NMIMS'24 Hackathon",
@@ -148,7 +107,7 @@ export const projects: Project[] = [
     isWorking: true,
   },
   {
-    title: "I'm a chill guy",
+    title: "Chill guy",
     description:
       'AI-powered GitHub profile roaster with intelligent analysis, witty commentary, and social sharing features',
     image: '/project/chillguy.png',
@@ -184,27 +143,6 @@ export const projects: Project[] = [
     live: 'https://blog.ramx.in/',
     details: true,
     projectDetailsPageSlug: '/projects/poems-blog',
-    isWorking: true,
-  },
-  {
-    title: 'Intent JS',
-    description:
-      'Modern JavaScript library website with advanced animations, interactive playground, and comprehensive documentation',
-    image: '/project/intent.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
-    link: 'https://intent-js.ramx.in',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'React', icon: <ReactIcon key="react" /> },
-      { name: 'Motion', icon: <Motion key="motion" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
-    ],
-    github: 'https://github.com/ramxcodes/intent-js',
-    live: 'https://intent-js.ramx.in',
-    details: true,
-    projectDetailsPageSlug: '/projects/intent-js',
     isWorking: true,
   },
   {
