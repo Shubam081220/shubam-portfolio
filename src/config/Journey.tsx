@@ -9,21 +9,22 @@ export type JourneyItem = {
   href: string;
 };
 
+// Keep the icons in use in the array
 export const journeyItems: JourneyItem[] = [
   {
     name: 'My Journey',
     description: 'Overview of my learning and career journey.',
-    icon: Calender,
+    icon: Calender, // now used
     href: '/journey',
   },
   {
     name: 'Certificates & Achievements',
     description: 'A curated list of certificates and achievements.',
-    icon: CV,
+    icon: CV, // now used
     href: '/journey/certificates',
   },
 ];
 
-export default {
-  journeyItems,
-};
+// Named export instead of anonymous default
+const journeyConfig = { journeyItems };
+export default journeyConfig;
