@@ -11,6 +11,14 @@ import Website from '../svgs/Website';
 import X from '../svgs/X';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
 
+// 🔥 Added accordion imports
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from '@/components/ui/accordion';
+
 interface ExperienceCardProps {
   experience: Experience;
 }
@@ -135,19 +143,31 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
         </div>
       </div>
 
-      {/* Description */}
-      <div className="text-secondary flex flex-col">
-        {experience.description.map(
-          (description: string, descIndex: number) => (
-            <p
-              key={descIndex}
-              dangerouslySetInnerHTML={{
-                __html: `• ${parseDescription(description)}`,
-              }}
-            />
-          ),
-        )}
-      </div>
+      {/* ------------------------------ */}
+      {/* 🔥 Description (Collapsible)   */}
+      {/* ------------------------------ */}
+
+      <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="item-1">
+          <AccordionTrigger className="text-left text-sm font-medium">
+            View Details
+          </AccordionTrigger>
+          <AccordionContent>
+            <div className="text-secondary flex flex-col gap-2">
+              {experience.description.map(
+                (description: string, descIndex: number) => (
+                  <p
+                    key={descIndex}
+                    dangerouslySetInnerHTML={{
+                      __html: `• ${parseDescription(description)}`,
+                    }}
+                  />
+                ),
+              )}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
     </div>
   );
 }
