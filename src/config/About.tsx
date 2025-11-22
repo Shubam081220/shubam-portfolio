@@ -21,6 +21,6 @@ export const mySkills = [
 ];
 
 export const about = {
-  name: 'Ramkrishna Swarnkar',
-  description: `I'm a Full Stack web developer and Open Source Contributor, I love building products to solve real-world problems. I'm specialized in building MVP's.`,
+  name: 'Shubam Lunawat',
+  description: `I'm a Full Stack web developer and Data Analyst, I love building products to solve real-world problems and analyze data to gain insights and make data-driven decisions. I'm specialized in building MVP's and Data Analysis Projects.`,
 };

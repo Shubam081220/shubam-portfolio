@@ -7,7 +7,7 @@ import Phone from '@/components/svgs/devices/Phone';
 
 export const devices = [
   {
-    name: 'Apple MacBook Pro 16"in M4 48GB 512GB',
+    name: 'HP Laptop Pro 16"in M4 48GB 512GB',
     icon: <Laptop className="size-4" />,
   },
   {
@@ -15,7 +15,7 @@ export const devices = [
     icon: <Monitor className="size-4" />,
   },
   {
-    name: 'Magic Keyboard',
+    name: 'Normal Keyboard',
     icon: <Keyboard className="size-4" />,
   },
   {
@@ -23,11 +23,11 @@ export const devices = [
     icon: <Mouse className="size-4" />,
   },
   {
-    name: 'Crossbeats Roar 2.0 (Special Addition)',
+    name: 'Noise Earpods Pro',
     icon: <Headphones className="size-4" />,
   },
   {
-    name: 'Samsung S23 (256 GB)',
+    name: 'Realme 8 (128 GB)',
     icon: <Phone className="size-4" />,
   },
 ];

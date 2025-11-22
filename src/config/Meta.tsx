@@ -13,15 +13,15 @@ export interface PageMeta {
 export const siteConfig = {
   name: heroConfig.name,
   title: 'Sleek Portfolio',
-  description: 'Sleek Portfolio Template by @Ramxcodes',
+  description: 'Sleek Portfolio Template by @Shubamlunawat',
   url: process.env.NEXT_PUBLIC_URL || 'http://localhost:3000',
   ogImage: '/meta/opengraph-image.png',
   author: {
     name: about.name,
-    twitter: '@ramxcodes',
-    github: 'ramxcodes',
-    linkedin: 'ramxcodes',
-    email: 'ramxcodes@gmail.com',
+    twitter: '@Shub48349',
+    github: 'Shubam081220',
+    linkedin: 'shubam-lunawat-46a917289',
+    email: 'shubamlunawat@gmail.com',
   },
   keywords: [
     'portfolio',
@@ -81,7 +81,7 @@ export const pageMetadata: Record<string, PageMeta> = {
   '/projects': {
     title: 'Projects - My Work & Projects Portfolio',
     description:
-      'Discover my projects and work across different technologies and domains. From web apps to mobile solutions.',
+      'Discover my projects and work across different technologies and domains. From web apps to mobile solutions to data analytics.',
     keywords: [
       'projects',
       'portfolio',
